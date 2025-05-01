@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EbayTestSuite" parallel="false">
+    <test name="EbayMobileTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.ebay.tests.EbayMobilePhoneTest"/>
+        </classes>
+    </test>
+</suite>
